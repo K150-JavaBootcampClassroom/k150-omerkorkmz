@@ -1,7 +1,9 @@
+package hafta1;
+
 import java.util.Scanner;
 
 
-public class Main {
+public class odev1 {
 
     public static void main(String[]args) {
 
