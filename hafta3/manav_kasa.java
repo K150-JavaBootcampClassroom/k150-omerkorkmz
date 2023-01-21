@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class manav_kasa {
 
     public static void main(String[] args) {
- //----------->while(){}
+    while(true){
         System.out.println("Manavcima hosgeldiniz\n***************************************************************\nSizlere en uygun fiyatlı ve en yakın lokasyonlardan hizmet veriyoruz");
 
         Scanner giris = new Scanner(System.in);
@@ -114,6 +114,7 @@ public class manav_kasa {
         System.out.println("Armut = " + armut_tl + "TL\nDomates = " + domates_tl + "TL\nElma = " + elma_tl + "TL\nMuz = " + muz_tl + "TL\n");
 
         System.out.println("Toplam Fiyat = " + toplam + "TL");
+    }
     }
 }
 
